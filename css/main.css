@@ -1,0 +1,37 @@
+img{
+  max-width:100% ;
+}
+.box{
+width: 220px;
+height: 450px;
+padding: 5px;
+border: 2px solid #999;
+margin:0;
+box-sizing: border-box;
+float: left;
+text-align:justify;
+}
+.footer{
+  position: relative;
+  top:0px;
+  width: 660px;
+  height:30px;
+  background: #F57517;
+  text-align:center;
+  display:inline-block;
+}
+#titulo{
+  width: 660px;
+  height: 50px;
+  background: #F5A117;
+  text-align: center;
+}
+body{
+  margin-left: 50px
+}
+h3{
+  text-align: center;
+}
+.medio{
+  text-align: center;
+}
