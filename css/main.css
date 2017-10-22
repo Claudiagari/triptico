@@ -1,3 +1,7 @@
+body{
+  width: 750px;
+  margin-left: 50px
+}
 img{
   max-width:100% ;
 }
@@ -5,7 +9,7 @@ img{
 width: 220px;
 height: 450px;
 padding: 5px;
-border: 2px solid #999;
+border: 1px solid black;
 margin:0;
 box-sizing: border-box;
 float: left;
@@ -14,24 +18,38 @@ text-align:justify;
 .footer{
   position: relative;
   top:0px;
-  width: 660px;
+  width: 690px;
   height:30px;
   background: #F57517;
   text-align:center;
   display:inline-block;
+  outline: 1px solid black;
 }
 #titulo{
-  width: 660px;
-  height: 50px;
+  font-size: 25px;
+  width: 690px;
+  height: 30px;
   background: #F5A117;
   text-align: center;
-}
-body{
-  margin-left: 50px
+  outline: 1px solid black;
 }
 h3{
   text-align: center;
+  padding-bottom: 20px;
 }
-.medio{
+#medio{
+  margin-top: 5px;
   text-align: center;
+}
+p{
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 0;
+}
+h2 {
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+#columna2 {
+  width: 250px;
 }
